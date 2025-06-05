@@ -10,32 +10,6 @@ Projeto de landing page para um espaço de beleza, desenvolvido em React (com su
 - Botões de ação para WhatsApp e tratamentos
 - Design moderno e personalizável
 
-## 🚀 Como rodar o projeto
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/beleza-bem-estar.git
-   cd beleza-bem-estar
-   ```
-
-2. **Instale as dependências:**
-   ```bash
-   npm install
-   # ou
-   yarn
-   ```
-
-3. **Inicie o servidor de desenvolvimento:**
-   ```bash
-   npm run dev
-   # ou
-   yarn dev
-   ```
-
-4. **Acesse no navegador:**
-   ```
-   http://localhost:5173
-   ```
    *(ou a porta indicada no terminal)*
 
 ## 🛠️ Tecnologias utilizadas
@@ -60,16 +34,8 @@ src/
 
 ![Preview do site](./src/assets/Bg-hero.avif)
 
-## ✍️ Personalização
 
-- Altere as cores, fontes e textos diretamente nos componentes React.
-- Substitua a imagem de fundo em `src/assets/Bg-hero.avif` por uma de sua preferência.
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT.  
-Sinta-se livre para usar e modificar!
 
 ---
 
-Feito com 💖 por [Seu Nome]
+Feito por [Lidiane Santos Soares]
