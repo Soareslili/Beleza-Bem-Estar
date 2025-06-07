@@ -15,7 +15,7 @@ export function Hero() {
                 style={{ backgroundColor: 'rgba(0,0,0,0.40)' }}
             ></div>
             <header className="relative z-10 flex h-16 w-full items-center justify-between">
-                <a className="text-rose-600 font-bold text-3xl font-playfair ml-10" href="#">Beleza & Bem-Estar</a>
+                <a className="text-rose-500 font-bold text-3xl font-playfair ml-10" href="#">Beleza & Bem-Estar</a>
         <button
                         className="md:hidden text-4xl text-rose-600"
                         aria-label="Abrir menu"
@@ -37,7 +37,7 @@ export function Hero() {
             <main className="relative z-10 flex flex-col items-center justify-center text-white text-center h-[calc(100vh-4rem)] px-4">
                 <div>
                     <h1 className="text-4xl md:text-7xl font-bold mb-4">Desperte sua</h1>
-                    <h2 className="text-3xl text-pink-300 md:text-6xl font-semibold">beleza natural</h2>
+                    <h2 className="text-3xl text-pink-400 md:text-6xl font-semibold">beleza natural</h2>
                     <p className='text-lg mt-10'>Seu momento de cuidado começa aqui. Descubra tratamentos exclusivos que realçam sua beleza e promovem seu bem-estar.</p>
                 </div>
                 <div className="flex mt-8 gap-4">
