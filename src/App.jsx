@@ -1,6 +1,7 @@
 import { About } from "./components/About"
 import { Hero } from "./components/hero"
 import { Treatment } from "./components/treatment"
+import {Testimony} from "./components/Testimony"
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
      <Hero/>
     <About/>
     <Treatment/>
+    <Testimony/>
     </>
   )
 }

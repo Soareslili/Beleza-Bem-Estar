@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -6,7 +7,9 @@ export default {
   ],
   theme: {
     extend: {
-      "font-family" : "Playfair Display, serif"
+      fontFamily: {
+        playfair: ['Playfair Display', 'serif'],
+      },
     },
   },
   plugins: [],
