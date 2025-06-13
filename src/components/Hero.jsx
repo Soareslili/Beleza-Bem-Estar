@@ -22,46 +22,57 @@ export function Hero() {
                 className="absolute inset-0 z-0"
                 style={{ backgroundColor: 'rgba(0,0,0,0.40)' }}
             ></div>
-            <header
-                className={`fixed top-0 left-0 z-50 flex h-16 w-full items-center justify-between transition-colors duration-300
+  <header
+    className={`fixed top-0 left-0 z-50 flex h-16 w-full items-center justify-center transition-colors duration-300
         ${scrolled ? 'bg-white shadow-md' : 'bg-transparent'}
     `}
-            >
-                <a className="text-rose-500 font-bold text-3xl font-playfair ml-10" href="#">Beleza & Bem-Estar</a>
-                <button
-                    className="md:hidden text-4xl text-rose-600"
-                    aria-label="Abrir menu"
-                    onClick={() => setMenuOpen(!menuOpen)}
-                >
-                    &#9776;
-                </button>
-                <nav className={`${menuOpen ? 'flex' : 'hidden'} flex flex-col items-center space-y-6 text-xl font-roboto font-semibold py-10 px-6 shadow-md mr-20 absolute top-16 left-0 w-full
-        md:flex md:static md:flex-row md:items-center md:space-y-0 md:gap-8 md:w-auto md:py-0 md:px-0 md:shadow-none md:bg-transparent`}>
-                    <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Início</a>
-                    <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Sobre</a>
-                    <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Tratamentos</a>
-                    <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Depoimentos</a>
-                    <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Contato</a>
-                    <a className="bg-rose-600 text-white py-2 px-5 rounded-full gap-2 hover:bg-pink-700 transition-colors duration-200" href="">Agendar</a>
-                </nav>
-            </header>
+>
+    <div className="flex w-full max-w-6xl items-center justify-between px-4 mx-auto">
+        <a className=" text-rose-500 font-bold text-3xl font-playfair md:block" href="#">Beleza & Bem-Estar</a>
+        <button
+            className="md:hidden text-4xl text-rose-600"
+            aria-label="Abrir menu"
+            onClick={() => setMenuOpen(!menuOpen)}
+        >
+            &#9776;
+        </button>
+        <nav className={`
+            ${menuOpen ? 'flex bg-white' : 'hidden'}
+            flex flex-col items-center space-y-6 text-xl font-roboto font-semibold py-10 px-6 shadow-md absolute top-16 left-0 w-full
+            md:flex md:static md:flex-row md:space-y-0 md:gap-8 md:w-auto md:py-0 md:px-0 md:shadow-none md:bg-transparent
+        `}>
+            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Início</a>
+            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Sobre</a>
+            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Tratamentos</a>
+            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Depoimentos</a>
+            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Contato</a>
+            <a className="bg-rose-600 text-white py-2 px-5 rounded-full gap-2 hover:bg-pink-700 transition-colors duration-200" href="">Agendar</a>
+        </nav>
+    </div>
+</header>
+
 
             <main className="relative z-10 flex flex-col items-center justify-center text-white text-center h-[calc(100vh-4rem)] px-4">
                 <div>
-                    <h1 className="text-4xl md:text-7xl font-bold mb-4">Desperte sua</h1>
-                    <h2 className="text-3xl text-pink-400 md:text-6xl font-semibold">beleza natural</h2>
-                    <p className='text-lg mt-10'>Seu momento de cuidado começa aqui. Descubra tratamentos exclusivos que realçam sua beleza e promovem seu bem-estar.</p>
+                    <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4">Desperte sua</h1>
+                    <h2 className="text-2xl sm:text-3xl text-pink-400 md:text-6xl font-semibold">beleza natural</h2>
+                    <p className='text-base sm:text-lg mt-10 max-w-xl mx-auto'>
+                        Seu momento de cuidado começa aqui. Descubra tratamentos exclusivos que realçam sua beleza e promovem seu bem-estar.
+                    </p>
                 </div>
-                <div className="flex mt-8 gap-4">
-                    <a className="bg-rose-600 text-white font-semibol text-ls py-4 px-8 rounded-full hover:bg-pink-700 transition-colors duration-300" href="">Agende agora pleo Whatssap</a>
+                <div className="flex flex-col sm:flex-row mt-8 gap-4 w-full sm:w-auto justify-center items-center">
+                    <a className="bg-rose-600 text-white font-semibold text-base py-4 px-8 rounded-full hover:bg-pink-700 transition-colors duration-300 w-full sm:w-auto text-center" href="">
+                        Agende agora pelo WhatsApp
+                    </a>
                     <a
-                        className="bg-transparent text-white border border-white font-semibold py-4 px-8 rounded-full hover:bg-white hover:text-black transition-colors duration-300"
+                        className="bg-transparent text-white border border-white font-semibold py-4 px-8 rounded-full hover:bg-white hover:text-black transition-colors duration-300 w-full sm:w-auto text-center"
                         href=""
                     >
                         Conheça nossos tratamentos
                     </a>
                 </div>
             </main>
+
         </div>
     )
 }
