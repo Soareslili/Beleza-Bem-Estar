@@ -44,11 +44,12 @@ export function Contact() {
                             href=""
                             className="mt-6 block bg-rose-600 text-white py-4 px-6 rounded-xl hover:bg-rose-700 transition-all duration-300 shadow-lg text-center transform hover:scale-105 hover:translate-z-0"
                             style={{ willChange: 'transform' }}
+                            data-aos="zoom-in"
                         >
                             Conversar no WhatsApp
                         </a>
                     </div>
-                    {/* Perguntas Frequentes */}
+                   
                     <div className="flex flex-col bg-white w-full max-w-lg mx-auto">
                         <h3 className="text-2xl font-playfair font-bold text-gray-800 mb-6">Perguntas Frequentes</h3>
                         <div className="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors mb-4">
@@ -75,7 +76,7 @@ export function Contact() {
                                 Sim! Todos os nossos tratamentos são realizados por profissionais qualificados e utilizamos produtos de alta qualidade.
                             </p>
                         </div>
-                        <div className="mt-8 p-6 bg-gradient-to-r from-rose-600 to-rose-700 rounded-2xl text-white">
+                        <div className="mt-8 p-6 bg-gradient-to-r from-rose-600 to-rose-700 rounded-2xl text-white" data-aos="zoom-in-left">
                             <h4 className="font-playfair font-bold text-xl mb-3">Primeira vez?</h4>
                             <p className="mb-4 opacity-90">
                                 Ganhe 15% de desconto no seu primeiro tratamento! Entre em contato e agende sua avaliação gratuita.

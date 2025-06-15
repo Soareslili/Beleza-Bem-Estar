@@ -53,19 +53,21 @@ export function Hero() {
 
 
             <main className="relative z-10 flex flex-col items-center justify-center text-white text-center h-[calc(100vh-4rem)] px-4">
-                <div>
+                <div data-aos="fade-up" data-aos-delay='0'>
                     <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4">Desperte sua</h1>
                     <h2 className="text-2xl sm:text-3xl text-pink-400 md:text-6xl font-semibold">beleza natural</h2>
-                    <p className='text-base sm:text-lg mt-10 max-w-xl mx-auto'>
+                    <p className='text-base sm:text-lg mt-10 max-w-2xl mx-auto'>
                         Seu momento de cuidado começa aqui. Descubra tratamentos exclusivos que realçam sua beleza e promovem seu bem-estar.
                     </p>
                 </div>
                 <div className="flex flex-col sm:flex-row mt-8 gap-4 w-full sm:w-auto justify-center items-center">
-                    <a className="bg-rose-600 text-white font-semibold text-base py-4 px-8 rounded-full hover:bg-pink-700 transition-colors duration-300 w-full sm:w-auto text-center" href="">
+                    <a  className="bg-rose-600 text-white font-semibold text-base py-4 px-8 rounded-full hover:bg-pink-700 transition-colors duration-300 w-full sm:w-auto text-center" data-aos="fade-up" data-aos-delay='300' href="">
                         Agende agora pelo WhatsApp
                     </a>
                     <a
                         className="bg-transparent text-white border border-white font-semibold py-4 px-8 rounded-full hover:bg-white hover:text-black transition-colors duration-300 w-full sm:w-auto text-center"
+                        data-aos="fade-up"
+                        data-aos-delay='600'
                         href=""
                     >
                         Conheça nossos tratamentos

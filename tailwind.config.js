@@ -5,12 +5,14 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {
-      fontFamily: {
-        playfair: ['Playfair Display', 'serif'],
-      },
+ 
+theme: {
+  extend: {
+    fontFamily: {
+      playfair: ['"Playfair Display"', 'serif'],
     },
   },
+},
+
   plugins: [],
 }
