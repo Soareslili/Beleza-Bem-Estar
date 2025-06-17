@@ -3,7 +3,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 
 import { About } from "./components/About"
-import { Hero } from "./components/hero"
+import { Hero } from "./components/Hero"
 import { Treatment } from "./components/treatment"
 import {Testimony} from "./components/Testimony"
 import { Contact } from "./components/Contact"
