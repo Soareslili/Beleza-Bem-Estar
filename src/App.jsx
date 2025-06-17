@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 
 import { About } from "./components/About"
 import { Hero } from "./components/Hero"
-import { Treatment } from "./components/treatment"
+import { Treatment } from "./components/Treatment"
 import {Testimony} from "./components/Testimony"
 import { Contact } from "./components/Contact"
 import { Location } from "./components/Location"
