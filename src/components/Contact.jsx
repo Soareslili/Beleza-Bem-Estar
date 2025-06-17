@@ -2,7 +2,7 @@ export function Contact() {
     return (
         <section className="py-20 bg-white">
             <div className="text-center mb-16">
-                <h2 className="text-3xl md:text-4xl font-playfair font-bold text-gray-800 mb-4">Entre em Contato</h2>
+                <h2 id="contact" className="text-3xl md:text-4xl font-playfair font-bold text-gray-800 mb-4">Entre em Contato</h2>
                 <p className="text-gray-600 max-w-2xl mx-auto text-lg">
                     Tire suas dúvidas ou agende um horário! Estamos aqui para cuidar de você.
                 </p>
@@ -41,10 +41,11 @@ export function Contact() {
                             </div>
                         </div>
                         <a
-                            href=""
+                            
                             className="mt-6 block bg-rose-600 text-white py-4 px-6 rounded-xl hover:bg-rose-700 transition-all duration-300 shadow-lg text-center transform hover:scale-105 hover:translate-z-0"
                             style={{ willChange: 'transform' }}
                             data-aos="zoom-in"
+                        href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20a%20Clínica.!&type=phone_number&app_absent=0'
                         >
                             Conversar no WhatsApp
                         </a>
@@ -82,8 +83,9 @@ export function Contact() {
                                 Ganhe 15% de desconto no seu primeiro tratamento! Entre em contato e agende sua avaliação gratuita.
                             </p>
                             <a
-                                href=""
+                                href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20quero%20meu%20desconto.!&type=phone_number&app_absent=0'
                                 className="bg-white text-rose-600 px-6 py-3 rounded-full font-semibold hover:bg-rose-300 transition-all duration-300 shadow-lg text-center transform hover:scale-105 hover:translate-z-0"
+                            
                             >
                                 Quero meu desconto!
                             </a>

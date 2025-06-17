@@ -5,7 +5,7 @@ export function About() {
         <section className='py-20 to-white from-rose-50 bg-gradient-to-b'>
             <div className='grid md:grid-cols-2 gap-12 items-center px-4'>
                 <div className='flex flex-col'>
-                    <h2 className='text-3xl md:text-4xl font-playfair font-bold text-gray-800 mb-6' data-aos="fade-right" data-aos-delay='0'>
+                    <h2 id='about' className='text-3xl md:text-4xl font-playfair font-bold text-gray-800 mb-6' data-aos="fade-right" data-aos-delay='0'>
                         Conheça Nossa História
                     </h2>
                     <p className='text-gray-600 mb-6 leading-relaxed' data-aos="fade-right" data-aos-delay='100'>

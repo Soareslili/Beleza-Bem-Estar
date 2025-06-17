@@ -61,9 +61,9 @@ export function Testimony() {
     return (
 
 
-        <section className="py-20 bg-pink-50">
+        <section className="py-20 bg-pink-50 mb-20">
             <div className="max-w-4xl mx-auto text-center mb-10">
-                <h2 className="text-3xl md:text-4xl font-bold font-playfair text-gray-800 mb-4">O que nossas clientes dizem</h2>
+                <h2 id="testimony" className="text-3xl md:text-4xl font-bold font-playfair text-gray-800 mb-4">O que nossas clientes dizem</h2>
                 <p className="text-gray-600 text-lg">A satisfação das nossas clientes é nossa maior recompensa. Confira alguns depoimentos de quem já viveu essa experiência.</p>
             </div>
             <div className="mx-w-4xl mx-auto">
@@ -93,13 +93,7 @@ export function Testimony() {
                     ))}
                 </div>
 
-                <div className="flex justify-center mt-10">
-                    <a href="#"
-                        className="bg-pink-600 text-white font-semibold py-4 px-8 rounded-full shadow-lg hover:bg-pink-700 transition-colors duration-300"
-                    >
-                        Quero agendar meu horário!
-                    </a>
-                </div>
+                
             </div>
         </section>
     )

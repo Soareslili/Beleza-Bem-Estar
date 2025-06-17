@@ -11,7 +11,7 @@ export function Treatment() {
     return (
         <section className="flex flex-col items-center justify-center px-4 mt-20 mb-40 ">
             <div className="flex flex-col justify-center items-center h-full mt-20 text-center px-4">
-                <h2 className="text-3xl md:text-5xl font-playfair font-bold text-gray-800 mb-4">Nossos Tratamentos</h2>
+                <h2 id='treatment' className="text-3xl md:text-5xl font-playfair font-bold text-gray-800 mb-4">Nossos Tratamentos</h2>
                 <p className="text-gray-600 max-w-2xl max-auto text-lg">Descubra nossa variedade de tratamentos especializados, pensados para cuidar de você de forma completa e personalizada.</p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
@@ -22,10 +22,14 @@ export function Treatment() {
                         <h3 className='text-xl font-playfair font-bold text-gray-800 ml-4'>Limpeza de Pele</h3>
                         <p className='text-gray-600 mb-4 leading-relaxed ml-4'>Tratamento profundo para remover impurezas e renovar a pele do rosto</p>
                         <div className='flex items-center gap-8'>
-                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'>
+                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'
+                            href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Limpeza%20de20%Pele.!&type=phone_number&app_absent=0"
+                            >
                                 Agendar
                             </a>
-                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '>
+                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '
+                            href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Limpeza%20de20%Pele.!&type=phone_number&app_absent=0"'
+                            >
                                 Saiba Mais
                             </a>
                         </div>
@@ -39,10 +43,16 @@ export function Treatment() {
                         <h3 className='text-xl font-playfair font-bold text-gray-800 ml-4'>Spa dos Pés</h3>
                         <p className='text-gray-600 mb-4 leading-relaxed ml-4'>Relaxamento completo com hidratação e cuidados especiais para os pés</p>
                         <div className='flex items-center gap-8'>
-                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'>
+                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'
+                            href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Spa%20dos20%Pés.!&type=phone_number&app_absent=0"'
+                            >
+                                
                                 Agendar
                             </a>
-                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '>
+                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '
+                            href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Limpeza%20de20%Pele.!&type=phone_number&app_absent=0"'
+                            >
+                                
                                 Saiba Mais
                             </a>
                         </div>
@@ -56,10 +66,14 @@ export function Treatment() {
                         <h3 className='text-xl font-playfair font-bold text-gray-800 ml-4'>Drenagem Linfática</h3>
                         <p className='text-gray-600 mb-4 leading-relaxed ml-4'>Técnica especializada para eliminar toxinas e reduzir inchaços</p>
                         <div className='flex items-center gap-8'>
-                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'>
+                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'
+                            href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Drenagem%20Linfática.!&type=phone_number&app_absent=0'
+                           >
                                 Agendar
                             </a>
-                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '>
+                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '
+                            href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Drenagem%20Linfática.!&type=phone_number&app_absent=0'
+                            >
                                 Saiba Mais
                             </a>
                         </div>
@@ -73,10 +87,16 @@ export function Treatment() {
                         <h3 className='text-xl font-playfair font-bold text-gray-800 ml-4'>Massagem Relaxante</h3>
                         <p className='text-gray-600 mb-4 leading-relaxed ml-4'>Alívio do stress e tensões com técnicas de relaxamento profundo</p>
                         <div className='flex items-center gap-8'>
-                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'>
+                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'
+                            href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Massagem%20Realaxante.!&type=phone_number&app_absent=0'
+                            >
+                              
                                 Agendar
                             </a>
-                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '>
+                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '
+                             href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Massagem%20Realaxante.!&type=phone_number&app_absent=0"'
+                            >
+                              
                                 Saiba Mais
                             </a>
                         </div>
@@ -90,10 +110,15 @@ export function Treatment() {
                         <h3 className='text-xl font-playfair font-bold text-gray-800 ml-4'>Massagem Modeladora</h3>
                         <p className='text-gray-600 mb-4 leading-relaxed ml-4'>Técnicas específicas para modelar o corpo e melhorar a circulação</p>
                         <div className='flex items-center gap-8'>
-                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'>
+                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'
+                             href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Massagem%20Modeladora.!&type=phone_number&app_absent=0"'
+                            >
+                              
                                 Agendar
                             </a>
-                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '>
+                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '
+                            href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Massagem%20Modeladora.!&type=phone_number&app_absent=0'
+                            >
                                 Saiba Mais
                             </a>
                         </div>
@@ -107,10 +132,15 @@ export function Treatment() {
                         <h3 className='text-xl font-playfair font-bold text-gray-800 ml-4'>Revitalização Facial</h3>
                         <p className='text-gray-600 mb-4 leading-relaxed ml-4'>Tratamento anti-idade para renovar e revitalizar a pele do rosto</p>
                         <div className='flex items-center gap-8'>
-                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'>
+                            <a className='bg-rose-600 text-white text-center py-2 px-4 rounded-lg ml-20 cursor-pointer hover:bg-rose-700'
+                            href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Revitalização%20Facial.!&type=phone_number&app_absent=0"'
+                            >
                                 Agendar
                             </a>
-                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '>
+                            <a className='px-4 py-2 border border-rose-600 text-rose-600 rounded-lg cursor-pointer hover:bg-rose-50 transition-colors '
+                            href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20sobre%20Revitalização%20Facial.!&type=phone_number&app_absent=0'
+                            >
+                               
                                 Saiba Mais
                             </a>
                         </div>

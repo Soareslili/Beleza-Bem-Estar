@@ -41,12 +41,12 @@ export function Hero() {
             flex flex-col items-center space-y-6 text-xl font-roboto font-semibold py-10 px-6 shadow-md absolute top-16 left-0 w-full
             md:flex md:static md:flex-row md:space-y-0 md:gap-8 md:w-auto md:py-0 md:px-0 md:shadow-none md:bg-transparent
         `}>
-            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Início</a>
-            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Sobre</a>
-            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Tratamentos</a>
-            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Depoimentos</a>
-            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="">Contato</a>
-            <a className="bg-rose-600 text-white py-2 px-5 rounded-full gap-2 hover:bg-pink-700 transition-colors duration-200" href="">Agendar</a>
+            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="#hero">Início</a>
+            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="#about">Sobre</a>
+            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="#treatment">Tratamentos</a>
+            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="#testimony">Depoimentos</a>
+            <a className="text-gray-400 hover:text-pink-300 transition-colors duration-200" href="#contact">Contato</a>
+            <a className="bg-rose-600 text-white py-2 px-5 rounded-full gap-2 hover:bg-pink-700 transition-colors duration-200" href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20a%20clínica&type=phone_number&app_absent=0">Agendar</a>
         </nav>
     </div>
 </header>
@@ -54,21 +54,21 @@ export function Hero() {
 
             <main className="relative z-10 flex flex-col items-center justify-center text-white text-center h-[calc(100vh-4rem)] px-4">
                 <div data-aos="fade-up" data-aos-delay='0'>
-                    <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4">Desperte sua</h1>
+                    <h1 id='hero' className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4">Desperte sua</h1>
                     <h2 className="text-2xl sm:text-3xl text-pink-400 md:text-6xl font-semibold">beleza natural</h2>
                     <p className='text-base sm:text-lg mt-10 max-w-2xl mx-auto'>
                         Seu momento de cuidado começa aqui. Descubra tratamentos exclusivos que realçam sua beleza e promovem seu bem-estar.
                     </p>
                 </div>
                 <div className="flex flex-col sm:flex-row mt-8 gap-4 w-full sm:w-auto justify-center items-center">
-                    <a  className="bg-rose-600 text-white font-semibold text-base py-4 px-8 rounded-full hover:bg-pink-700 transition-colors duration-300 w-full sm:w-auto text-center" data-aos="fade-up" data-aos-delay='300' href="">
+                    <a  className="bg-rose-600 text-white font-semibold text-base py-4 px-8 rounded-full hover:bg-pink-700 transition-colors duration-300 w-full sm:w-auto text-center" data-aos="fade-up" data-aos-delay='300' href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20a%20clínica&type=phone_number&app_absent=0">
                         Agende agora pelo WhatsApp
                     </a>
                     <a
                         className="bg-transparent text-white border border-white font-semibold py-4 px-8 rounded-full hover:bg-white hover:text-black transition-colors duration-300 w-full sm:w-auto text-center"
                         data-aos="fade-up"
                         data-aos-delay='600'
-                        href=""
+                        href="#treatment"
                     >
                         Conheça nossos tratamentos
                     </a>
